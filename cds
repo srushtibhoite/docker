@@ -5,7 +5,7 @@ node abc.js
 docker build -t assignment2b
 docker images
 docker image build -t firstdocker
-docker image build -t firstdocker
+docker image build -t firstdocker .
 docker login
 docker tag firstdocker admin/assignment2b
 docker push admin/assignment2b
